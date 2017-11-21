@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:baselineAligned="false">
 
     <TextView
         android:id="@+id/createText"
@@ -44,5 +45,17 @@
         android:layout_weight="0.07"
         android:ems="10"
         android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/createSubmit"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/createClr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
 
 </LinearLayout>
